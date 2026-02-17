@@ -1,0 +1,26 @@
+# ONE ZERO RAG Chatbot — Dependencies
+# Install: pip install -r requirements.txt
+
+# API client
+openai>=1.0
+
+# Embeddings (local HuggingFace model: BAAI/bge-m3)
+FlagEmbedding>=1.2
+sentence-transformers>=3.0
+torch>=2.0
+
+# Text splitting
+langchain-text-splitters>=0.2
+
+# Vector store
+chromadb>=0.5
+
+# Environment
+python-dotenv>=1.0
+
+# Notebook / evaluation
+jupyter>=1.0
+pandas>=2.0
+matplotlib>=3.8
+
+rank-bm25>=0.2
